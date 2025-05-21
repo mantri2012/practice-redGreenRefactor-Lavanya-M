@@ -3,7 +3,7 @@ const countVowels= require('../countingVowels.js');
 describe("countVowels", () => {
 //red phase: behavior you want to test
 test("counts vowels in 'hello'", () => {
-    expect(countVowels("hello")).toBe(2); // 'e' and 'o', hoowever with no function written at this phase the test will fail
+    expect(countVowels("hello")).toBe(2); // 'e' and 'o', how ever with no function written at this phase the test will fail
   });
 
 
